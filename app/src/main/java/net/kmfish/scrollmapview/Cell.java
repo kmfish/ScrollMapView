@@ -1,7 +1,5 @@
 package net.kmfish.scrollmapview;
 
-import android.support.annotation.ColorInt;
-
 /**
  * Created by lijun3 on 2017/12/18.
  */
@@ -10,7 +8,6 @@ public class Cell {
 
     public static final Cell EMPTY = new Cell();
 
-    @ColorInt
     private int mColor;
 
     private int strokeColor;

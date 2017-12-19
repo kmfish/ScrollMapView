@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mTableView = findViewById(R.id.table_view);
+        mTableView = (TableView) findViewById(R.id.table_view);
         initData();
     }
 
